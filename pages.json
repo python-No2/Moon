@@ -1,0 +1,20 @@
+{
+	"pages": [
+	{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"backgroundColor": "#FFF4F4"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+	
+}
