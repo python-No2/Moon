@@ -1,0 +1,25 @@
+/* 水平间距 */
+/* 水平间距 */
+.container.data-v-9fe07f7e {
+  position: relative;
+}
+.container .year.data-v-9fe07f7e {
+  position: absolute;
+  font-size: 64px;
+  color: #FF4D75;
+  margin-top: 70px;
+  z-index: 1;
+}
+.container .month.data-v-9fe07f7e {
+  margin-top: 140px;
+  position: absolute;
+  font-size: 64px;
+  color: #FF4D75;
+  z-index: 1;
+}
+.container .frame.data-v-9fe07f7e {
+  width: 380px;
+  height: 430px;
+  margin-top: 170px;
+  z-index: 0;
+}

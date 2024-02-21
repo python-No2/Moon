@@ -2,6 +2,9 @@
   "navigationBarTitleText": "首页",
   "backgroundColor": "#FFF4F4",
   "usingComponents": {
-    "top-bar": "./TopBar"
+    "top-bar": "./TopBar",
+    "calendar": "./Calendar",
+    "askfor-help": "./AskforHelp",
+    "tab-bar": "./TabBar"
   }
 }

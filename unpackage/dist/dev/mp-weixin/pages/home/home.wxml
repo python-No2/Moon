@@ -1,1 +1,1 @@
-<view class="background data-v-07e72d3c"><top-bar class="data-v-07e72d3c" u-i="07e72d3c-0" bind:__l="__l"></top-bar></view>
+<view class="background data-v-07e72d3c"><top-bar class="topbar data-v-07e72d3c" u-i="07e72d3c-0" bind:__l="__l"></top-bar><calendar class="calendar data-v-07e72d3c" u-i="07e72d3c-1" bind:__l="__l"></calendar><askfor-help class="askforhelp data-v-07e72d3c" u-i="07e72d3c-2" bind:__l="__l"></askfor-help><tab-bar class="tabbar data-v-07e72d3c" u-i="07e72d3c-3" bind:__l="__l"></tab-bar></view>

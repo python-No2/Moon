@@ -1,9 +1,12 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
 if (!Math) {
-  TopBar();
+  (TopBar + Calendar + AskforHelp + TabBar)();
 }
 const TopBar = () => "./TopBar.js";
+const Calendar = () => "./Calendar.js";
+const AskforHelp = () => "./AskforHelp.js";
+const TabBar = () => "./TabBar.js";
 const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
   __name: "home",
   setup(__props) {

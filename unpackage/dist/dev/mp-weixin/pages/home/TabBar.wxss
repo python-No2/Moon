@@ -1,0 +1,16 @@
+/* 水平间距 */
+/* 水平间距 */
+.tabbar.data-v-1971b01b {
+  position: relative;
+}
+.tabbar .background.data-v-1971b01b {
+  width: 431px;
+  height: 78px;
+  z-index: 0;
+}
+.tabbar .home-icon.data-v-1971b01b {
+  position: absolute;
+  width: 23px;
+  height: 26px;
+  z-index: 1;
+}

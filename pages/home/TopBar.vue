@@ -33,16 +33,16 @@
 		.goback{
 			position: absolute;
 			width: 14.64px;
-			height: 28.21px;
-			left: 26px;
-			top: 30px;
+			height: 26px;
+			left: 16px;
+			top: 25px;
 		}
 		.toolbar{
 			position: absolute;
 			display: flex;
 			flex-direction: row;
 			top: 16px;
-			left: 180px;
+			left: 290px;
 			.start-button{
 				display: flex;
 				flex-direction: column;
@@ -78,9 +78,11 @@
 	}
 	.divider-line{
 		.line{
-			margin-top: 70px;
+			position: absolute;
+			top: 70px;
 			width: 377.01px;
-			height: 2px;
+			height: 1px;
+			left: 6%;
 		}
 	}
 </style>
