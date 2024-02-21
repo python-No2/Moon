@@ -1,10 +1,24 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
+const utils_url = require("../../utils/url.js");
 const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
   __name: "TopBar",
   setup(__props) {
+    const goToSummery = () => {
+      common_vendor.index.navigateTo({
+        url: utils_url.Pages.Summery
+      });
+    };
+    const goToState = () => {
+      common_vendor.index.navigateTo({
+        url: utils_url.Pages.State
+      });
+    };
     return (_ctx, _cache) => {
-      return {};
+      return {
+        a: common_vendor.o(($event) => goToState()),
+        b: common_vendor.o(($event) => goToSummery())
+      };
     };
   }
 });

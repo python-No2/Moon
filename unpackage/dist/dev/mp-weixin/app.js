@@ -3,6 +3,8 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const common_vendor = require("./common/vendor.js");
 if (!Math) {
   "./pages/home/home.js";
+  "./pages/home/summery/summery.js";
+  "./pages/home/state/state.js";
 }
 const _sfc_main = {
   onLaunch: function() {

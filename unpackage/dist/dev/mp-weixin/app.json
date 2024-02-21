@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/home/summery/summery",
+    "pages/home/state/state"
   ],
   "window": {
     "navigationBarTextStyle": "black",
