@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/home",
     "pages/home/summery/summery",
-    "pages/home/state/state"
+    "pages/home/state/state",
+    "pages/record_status/record_status"
   ],
   "window": {
     "navigationBarTextStyle": "black",

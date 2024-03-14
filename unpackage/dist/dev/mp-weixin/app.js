@@ -5,6 +5,7 @@ if (!Math) {
   "./pages/home/home.js";
   "./pages/home/summery/summery.js";
   "./pages/home/state/state.js";
+  "./pages/record_status/record_status.js";
 }
 const _sfc_main = {
   onLaunch: function() {
@@ -18,7 +19,7 @@ const _sfc_main = {
     console.log("App Hide");
   }
 };
-const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/Moon_TiaoZhanBei/Moon-app/App.vue"]]);
+const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "E:/挑战杯temp/Moon/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
   return {

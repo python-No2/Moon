@@ -15,5 +15,5 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
     };
   }
 });
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-07e72d3c"], ["__file", "D:/Moon_TiaoZhanBei/Moon-app/pages/home/home.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-07e72d3c"], ["__file", "E:/挑战杯temp/Moon/pages/home/home.vue"]]);
 wx.createPage(MiniProgramPage);

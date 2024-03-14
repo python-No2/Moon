@@ -33,7 +33,7 @@
 	}
 	const goToState = () =>  {
 		uni.navigateTo({
-			url:Pages.State
+			url:Pages.record_status
 		})
 	}
 </script>

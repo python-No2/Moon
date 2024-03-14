@@ -19,6 +19,15 @@
 			"navigationBarTitleText": "状态",
 			"backgroundColor": "#FFF4F4"
 		}
+	},
+	{
+		"path" : "pages/record_status/record_status",
+		"style" : 
+		{
+			"navigationBarTitleText" : "状态页面",
+			"enablePullDownRefresh" : false,
+			"navigationStyle": "custom"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

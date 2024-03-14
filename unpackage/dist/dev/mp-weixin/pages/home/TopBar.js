@@ -11,7 +11,7 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
     };
     const goToState = () => {
       common_vendor.index.navigateTo({
-        url: utils_url.Pages.State
+        url: utils_url.Pages.record_status
       });
     };
     return (_ctx, _cache) => {
@@ -22,5 +22,5 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
     };
   }
 });
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-0d5084df"], ["__file", "D:/Moon_TiaoZhanBei/Moon-app/pages/home/TopBar.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-0d5084df"], ["__file", "E:/挑战杯temp/Moon/pages/home/TopBar.vue"]]);
 wx.createComponent(Component);

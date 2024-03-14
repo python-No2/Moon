@@ -6671,3 +6671,4 @@ exports.createSSRApp = createSSRApp;
 exports.defineComponent = defineComponent;
 exports.index = index;
 exports.o = o;
+exports.wx$1 = wx$1;
