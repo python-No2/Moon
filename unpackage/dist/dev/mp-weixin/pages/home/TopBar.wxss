@@ -14,35 +14,35 @@
   position: absolute;
   display: flex;
   flex-direction: row;
-  top: 16px;
-  left: 290px;
+  top: 3.72vw;
+  left: 67.44vw;
 }
 .container .toolbar .start-button.data-v-0d5084df {
   display: flex;
   flex-direction: column;
 }
 .container .toolbar .start-button .start-icon.data-v-0d5084df {
-  width: 33px;
-  height: 31px;
-  margin-left: 4px;
+  width: 7.67vw;
+  height: 7.21vw;
+  margin-left: 0.93vw;
 }
 .container .toolbar .state-button.data-v-0d5084df {
   display: flex;
   flex-direction: column;
 }
 .container .toolbar .state-button .state-icon.data-v-0d5084df {
-  width: 33px;
-  height: 31px;
-  margin-left: 4px;
+  width: 7.67vw;
+  height: 7.21vw;
+  margin-left: 0.93vw;
 }
 .container .toolbar .summery-button.data-v-0d5084df {
   display: flex;
   flex-direction: column;
 }
 .container .toolbar .summery-button .summery-icon.data-v-0d5084df {
-  width: 33px;
-  height: 31px;
-  margin-left: 4px;
+  width: 7.67vw;
+  height: 7.21vw;
+  margin-left: 0.93vw;
 }
 .tool-name.data-v-0d5084df {
   color: #E59797;

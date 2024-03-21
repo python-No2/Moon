@@ -6,11 +6,11 @@
 			"navigationBarTitleText": "首页",
 			"backgroundColor": "#FFF4F4"
 		}
-	},
-	{
-		"path": "pages/home/summery/summery",
+	},{
+		"path": "pages/home/summary/summary",
 		"style": {
 			"navigationBarTitleText": "状态记录",
+			"enablePullDownRefresh": false,
 			"backgroundColor": "#FFF4F4"
 		}
 	},{
@@ -19,8 +19,7 @@
 			"navigationBarTitleText": "状态",
 			"backgroundColor": "#FFF4F4"
 		}
-	},
-	{
+	},{
 		"path": "pages/information/information",
 		"style": {
 			"navigationBarTitleText": "信息",

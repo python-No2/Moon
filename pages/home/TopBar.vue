@@ -33,7 +33,7 @@
 	}
 	const goToState = () =>  {
 		uni.navigateTo({
-			url:Pages.State
+			url:Pages.record_status
 		})
 	}
 </script>
@@ -52,33 +52,33 @@
 			position: absolute;
 			display: flex;
 			flex-direction: row;
-			top: 16px;
-			left: 290px;
+			top: 3.72vw;
+			left: 67.44vw;
 			.start-button{
 				display: flex;
 				flex-direction: column;
 				.start-icon{
-					width: 33px;
-					height: 31px;
-					margin-left: 4px;
+					width: 7.67vw;
+					height: 7.21vw;
+					margin-left: 0.93vw;
 				}
 			}
 			.state-button{
 				display: flex;
 				flex-direction: column;
 				.state-icon{
-					width: 33px;
-					height: 31px;
-					margin-left: 4px;
+					width: 7.67vw;
+					height: 7.21vw;
+					margin-left: 0.93vw;
 				}
 			}
 			.summery-button{
 				display: flex;
 				flex-direction: column;
 				.summery-icon{
-					width: 33px;
-					height: 31px;
-					margin-left: 4px;
+					width: 7.67vw;
+					height: 7.21vw;
+					margin-left: 0.93vw;
 				}
 			}
 		}	
