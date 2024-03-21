@@ -1,32 +1,33 @@
 <template>
-	<view class = "background">
+	<div class = "background">
 		<TopBar class="topbar"></TopBar>
 		<Calendar class="calendar"></Calendar>
-		<AskforHelp class="askforhelp"></AskforHelp>
-		<TabBar class="tabbar"></TabBar>
-	</view>
+		<!-- <AskforHelp class="askforhelp"></AskforHelp> -->
+		<!-- <TabBar class="tabbar"></TabBar> -->
+	</div>
 </template>
 
 <script setup lang = "ts">
 	import TopBar from "@/pages/home/TopBar.vue";
 	import Calendar from "@/pages/home/Calendar.vue";
-	import AskforHelp from "@/pages/home/AskforHelp.vue";
-	import TabBar from "@/pages/home/TabBar.vue"
+	// import AskforHelp from "@/pages/home/AskforHelp.vue";
+	// import TabBar from "@/pages/home/TabBar.vue"
 </script>
 
 <style scoped lang="scss">
+	.basic-background{
+		background-color: #FFF4F4;
+	}
 	.background{
 		display: flex;
 		flex-direction: column;
 		background-color: #FFF4F4;
-		background-image: url(/static/img/background1-picture.png);
-		// background-image: url(/static/img/background2-picture.png);
-		width: 430px;
-		height: 932px;
+		background-image: url(/static/img/background2-picture.png);
+		height: 216.74vw;
 		.calendar{
 			display: flex;
 			justify-content: center;
-			margin-top: 50px;
+			margin-top: 15vw;
 		}
 		.tabbar{
 			position: absolute;

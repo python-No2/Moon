@@ -2,7 +2,11 @@
   "pages": [
     "pages/home/home",
     "pages/home/summery/summery",
-    "pages/home/state/state"
+    "pages/home/state/state",
+    "pages/information/information",
+    "pages/shopping/shopping",
+    "pages/forum/forum",
+    "pages/profile/profile"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -10,5 +14,43 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
+  "tabBar": {
+    "backgroundColor": "#FFEFEF",
+    "color": "#FF8D8D",
+    "selectedColor": "#FF8B8B",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/img/home-icon2.png",
+        "selectedIconPath": "static/img/home-icon1.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "信息",
+        "iconPath": "static/img/information-icon1.png",
+        "selectedIconPath": "static/img/information-icon1.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物",
+        "iconPath": "static/img/shopping-icon1.png",
+        "selectedIconPath": "static/img/shopping-icon1.png"
+      },
+      {
+        "pagePath": "pages/forum/forum",
+        "text": "论坛",
+        "iconPath": "static/img/forum-icon1.png",
+        "selectedIconPath": "static/img/forum-icon1.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "static/img/profile-icon1.png",
+        "selectedIconPath": "static/img/profile-icon1.png"
+      }
+    ]
+  },
+  "permission": {},
   "usingComponents": {}
 }

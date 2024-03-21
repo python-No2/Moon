@@ -43,10 +43,10 @@
 		position: relative;
 		.goback{
 			position: absolute;
-			width: 14.64px;
-			height: 26px;
-			left: 16px;
-			top: 25px;
+			width: 3.40vw;
+			height: 6.04vw;
+			left: 3.72vw;
+			top: 5.81vw;
 		}
 		.toolbar{
 			position: absolute;

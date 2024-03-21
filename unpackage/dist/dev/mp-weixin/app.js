@@ -5,6 +5,10 @@ if (!Math) {
   "./pages/home/home.js";
   "./pages/home/summery/summery.js";
   "./pages/home/state/state.js";
+  "./pages/information/information.js";
+  "./pages/shopping/shopping.js";
+  "./pages/forum/forum.js";
+  "./pages/profile/profile.js";
 }
 const _sfc_main = {
   onLaunch: function() {

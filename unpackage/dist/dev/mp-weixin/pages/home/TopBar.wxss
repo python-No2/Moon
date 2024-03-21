@@ -5,10 +5,10 @@
 }
 .container .goback.data-v-0d5084df {
   position: absolute;
-  width: 14.64px;
-  height: 26px;
-  left: 16px;
-  top: 25px;
+  width: 3.4vw;
+  height: 6.04vw;
+  left: 3.72vw;
+  top: 5.81vw;
 }
 .container .toolbar.data-v-0d5084df {
   position: absolute;

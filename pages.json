@@ -19,6 +19,34 @@
 			"navigationBarTitleText": "状态",
 			"backgroundColor": "#FFF4F4"
 		}
+	},
+	{
+		"path": "pages/information/information",
+		"style": {
+			"navigationBarTitleText": "信息",
+			"backgroundColor": "#FFF4F4"
+		}
+	},
+	{
+		"path": "pages/shopping/shopping",
+		"style": {
+			"navigationBarTitleText": "购物",
+			"backgroundColor": "#FFF4F4"
+		}
+	},
+	{
+		"path": "pages/forum/forum",
+		"style": {
+			"navigationBarTitleText": "论坛",
+			"backgroundColor": "#FFF4F4"
+		}
+	},
+	{
+		"path": "pages/profile/profile",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"backgroundColor": "#FFF4F4"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -26,8 +54,46 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
-			"background": "#efeff4"
+			"background": "#FFF4F4"
 		}
+	},
+	"tabBar": {
+		"backgroundColor": "#FFEFEF",
+		"color": "#FF8D8D",
+		"selectedColor": "#FF8B8B",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/img/home-icon2.png",
+				"selectedIconPath": "static/img/home-icon1.png"
+			},
+			{
+				"pagePath": "pages/information/information",
+				"text": "信息",
+				"iconPath": "static/img/information-icon1.png",
+				"selectedIconPath": "static/img/information-icon1.png"
+			},
+			{
+				"pagePath": "pages/shopping/shopping",
+				"text": "购物",
+				"iconPath": "static/img/shopping-icon1.png",
+				"selectedIconPath": "static/img/shopping-icon1.png"
+			},
+			{
+				"pagePath": "pages/forum/forum",
+				"text": "论坛",
+				"iconPath": "static/img/forum-icon1.png",
+				"selectedIconPath": "static/img/forum-icon1.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/img/profile-icon1.png",
+				"selectedIconPath": "static/img/profile-icon1.png"
+			}
+		]
+
 	}
 	
 }
