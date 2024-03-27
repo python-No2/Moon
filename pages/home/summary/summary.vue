@@ -31,7 +31,7 @@
 					<text class="edit-title">编辑</text>
 				</view>
 				<view class="border_new"></view>
-				<text class="add-record-1">添加体温记录</text>
+				<text class="add-record-1" @click="goToAddRecord1()">添加体温记录</text>
 				</view>
 			<view class="info-bar-2">
 				<view class="top-content">
@@ -73,20 +73,28 @@
     </view>
 </template>
 
-<script>
-export default {
-    methods: {
-        goBack() {
-            wx.navigateBack({
-                delta: 1 // 返回上一页面
-            });
-        },
-        // 添加方法来处理选项卡的点击事件
-        selectTab(event) {
-            console.log(event.currentTarget.dataset.name);
-        }
-    }
-}
+<script setup lang="ts">
+// export default {
+//     methods: {
+//         goBack() {
+//             uni.navigateBack({
+//                 delta: 1 // 返回上一页面
+//             });
+//         },
+//         // 添加方法来处理选项卡的点击事件
+//         selectTab(event) {
+//             console.log(event.currentTarget.dataset.name);
+//         }
+//     }
+// }
+	import { Pages } from "../../../utils/url";
+
+const goToAddRecord1 = () =>{
+		uni.navigateTo({
+			url: Pages.Temperature
+		})
+	}
+
 </script>
 
 <style>

@@ -12,7 +12,7 @@
 				<image class = "state-icon" src = "/static/img/start-icon.png"/>
 				<text class="tool-name" style="margin-left: 8px;">状态</text>
 			</view>
-			<view class = "summery-button" @click="goToSummery()">
+			<view class = "summery-button" @click="goToSummary()">
 				<image class = "summery-icon" src = "/static/img/start-icon.png"/>
 				<text class="tool-name">状态记录</text>
 			</view>
@@ -26,14 +26,14 @@
 <script setup lang="ts">
 	// import { Icons } from "@/utils/url"
 	import { Pages } from "@/utils/url"
-	const goToSummery = () => {
+	const goToSummary = () => {
 		uni.navigateTo({
-			url:Pages.Summery
+			url:Pages.Summary
 		})
 	}
 	const goToState = () =>  {
 		uni.navigateTo({
-			url:Pages.record_status
+			url:Pages.State
 		})
 	}
 </script>

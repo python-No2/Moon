@@ -6,7 +6,8 @@
     "pages/information/information",
     "pages/shopping/shopping",
     "pages/forum/forum",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/home/summary/temperature"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -40,8 +41,8 @@
       {
         "pagePath": "pages/forum/forum",
         "text": "论坛",
-        "iconPath": "static/img/forum-icon1.png",
-        "selectedIconPath": "static/img/forum-icon1.png"
+        "iconPath": "static/img/forum-icon.png",
+        "selectedIconPath": "static/img/forum-icon.png"
       },
       {
         "pagePath": "pages/profile/profile",

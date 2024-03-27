@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang = "ts">
-	import { onMounted, ref } from "vue";
+	import { onMounted, ref } from 'vue';
 	
 	// 日历模块
 	const year = ref("");
