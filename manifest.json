@@ -1,6 +1,6 @@
 {
     "name" : "Moon-app",
-    "appid" : "",
+    "appid" : "wx16b17c021966b5aa",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -50,11 +50,13 @@
     /* 快应用特有相关 */
     "mp-weixin" : {
         /* 小程序特有相关 */
-        "appid" : "",
+        "appid" : "wx16b17c021966b5aa",
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {}
     },
-    "vueVersion" : "3"
+    "vueVersion" : "3",
+    "locale" : "zh-Hans"
 }

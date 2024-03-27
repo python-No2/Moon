@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),r={};function n(c,a){return{}}const o=e._export_sfc(r,[["render",n],["__file","D:/Moon_TiaoZhanBei/Moon-app/pages/home/summary/temperature.vue"]]);wx.createPage(o);

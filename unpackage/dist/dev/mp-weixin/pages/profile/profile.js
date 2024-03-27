@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={};function r(c,_){return{}}const n=e._export_sfc(o,[["render",r],["__file","D:/Moon_TiaoZhanBei/Moon-app/pages/profile/profile.vue"]]);wx.createPage(n);

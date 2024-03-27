@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),n={};function o(c,_){return{}}const r=e._export_sfc(n,[["render",o],["__file","D:/Moon_TiaoZhanBei/Moon-app/pages/shopping/shopping.vue"]]);wx.createPage(r);

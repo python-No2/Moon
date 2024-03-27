@@ -3,8 +3,6 @@
   "backgroundColor": "#FFF4F4",
   "usingComponents": {
     "top-bar": "./TopBar",
-    "calendar": "./Calendar",
-    "askfor-help": "./AskforHelp",
-    "tab-bar": "./TabBar"
+    "calendar": "./Calendar"
   }
 }
