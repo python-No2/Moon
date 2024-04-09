@@ -63,7 +63,7 @@
 					<text class="edit-title">编辑</text>
 				</view>
 				<view class="border_new"></view>
-				<text class="add-record-4">添加睡眠记录</text>
+				<text class="add-record-4" @click="goToAddRecord4()">添加睡眠记录</text>
 			</view>
 	    </view>
 	
@@ -74,27 +74,24 @@
 </template>
 
 <script setup lang="ts">
-// export default {
-//     methods: {
-//         goBack() {
-//             uni.navigateBack({
-//                 delta: 1 // 返回上一页面
-//             });
-//         },
-//         // 添加方法来处理选项卡的点击事件
-//         selectTab(event) {
-//             console.log(event.currentTarget.dataset.name);
-//         }
-//     }
-// }
+
 	import { Pages } from "../../../utils/url";
 
-const goToAddRecord1 = () =>{
-		uni.navigateTo({
-			url: Pages.Temperature
+	const goToAddRecord1 = () =>{
+			uni.navigateTo({
+				url: Pages.Temperature
+			})
+		}
+	const goToAddRecord4= () =>{
+			uni.navigateTo({
+				url: Pages.Sleep
+			})
+	}
+	const goBack =() =>{
+		uni.navigateBack({
+			delta: 1
 		})
 	}
-
 </script>
 
 <style>

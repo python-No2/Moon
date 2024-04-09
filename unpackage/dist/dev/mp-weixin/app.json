@@ -7,7 +7,9 @@
     "pages/shopping/shopping",
     "pages/forum/forum",
     "pages/profile/profile",
-    "pages/home/summary/temperature"
+    "pages/home/summary/temperature",
+    "pages/index/index",
+    "pages/home/summary/sleep"
   ],
   "window": {
     "navigationBarTextStyle": "black",

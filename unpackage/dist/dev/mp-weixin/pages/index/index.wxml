@@ -1,0 +1,1 @@
+<view class="container"><view class="userinfo"><button wx:if="{{a}}" open-type="getUserInfo" bindgetuserinfo="{{b}}">授权登录</button><block wx:else><image src="{{c}}" class="userinfo-avatar"/><open-data class="userinfo-nickname" type="userNickName"></open-data></block></view></view>

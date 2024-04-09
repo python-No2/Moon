@@ -1,0 +1,213 @@
+/* 水平间距 */
+/* 水平间距 */
+.background.data-v-8d49d028 {
+  background-color: #FFF4F4;
+  height: 216.74vw;
+  position: relative;
+}
+.topbar .go-back .go-back-icon.data-v-8d49d028 {
+  position: absolute;
+  width: 3.6vw;
+  height: 6.04vw;
+  left: 3.72vw;
+  top: 15vw;
+}
+.topbar .title.data-v-8d49d028 {
+  position: absolute;
+  left: 40vw;
+  top: 14vw;
+  font-size: 4.6vw;
+  letter-spacing: 0.3vw;
+  color: #FF6666;
+}
+.topbar .boundary-line.data-v-8d49d028 {
+  position: absolute;
+  top: 105px;
+  width: 378.01px;
+  height: 1.2px;
+  left: 6%;
+}
+.clock-box.data-v-8d49d028 {
+  position: absolute;
+  top: 35vw;
+}
+.clock-box .switch-clock1.data-v-8d49d028 {
+  display: flex;
+  flex-direction: row;
+}
+.clock-box .switch-clock1 .check-mark1.data-v-8d49d028 {
+  width: 3.93vw;
+  height: 3.93vw;
+  margin-left: 6vw;
+}
+.clock-box .switch-clock1 .switch-title.data-v-8d49d028 {
+  color: #E59797;
+  margin-left: 3vw;
+  font-size: 3.8vw;
+}
+.clock-box .clock-table.data-v-8d49d028 {
+  margin-left: 13vw;
+  margin-top: 5vw;
+  background-color: #FFE0E0;
+  width: 75.46vw;
+  height: 32.83vw;
+  border-radius: 3vw;
+  box-shadow: 0vw 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
+}
+.clock-box .clock-table .start-time.data-v-8d49d028 {
+  display: flex;
+  flex-direction: row;
+}
+.clock-box .clock-table .start-time .clock.data-v-8d49d028 {
+  width: 7.41vw;
+  height: 7.41vw;
+  margin-top: 4vw;
+  margin-left: 5vw;
+}
+.clock-box .clock-table .start-time .start-title.data-v-8d49d028 {
+  color: #F48A8A;
+  margin-top: 5vw;
+  margin-left: 4vw;
+}
+.clock-box .clock-table .start-time .start-clock.data-v-8d49d028 {
+  margin-top: 5vw;
+  color: #E7ABAB;
+  margin-left: 15vw;
+}
+.clock-box .clock-table .start-time .choose-time.data-v-8d49d028 {
+  margin-top: 6vw;
+  margin-left: 2vw;
+  width: 3.5vw;
+  height: 5vw;
+}
+.clock-box .clock-table .divider-line.data-v-8d49d028 {
+  width: 65vw;
+  height: 0.3vw;
+  margin-left: 4.5vw;
+  margin-top: 5vw;
+}
+.clock-box .clock-table .end-time.data-v-8d49d028 {
+  display: flex;
+  flex-direction: row;
+}
+.clock-box .clock-table .end-time .clock.data-v-8d49d028 {
+  width: 7.41vw;
+  height: 7.41vw;
+  margin-top: 4vw;
+  margin-left: 5vw;
+}
+.clock-box .clock-table .end-time .end-title.data-v-8d49d028 {
+  color: #F48A8A;
+  margin-top: 5vw;
+  margin-left: 4vw;
+}
+.clock-box .clock-table .end-time .end-clock.data-v-8d49d028 {
+  margin-top: 5vw;
+  color: #E7ABAB;
+  margin-left: 15vw;
+}
+.clock-box .clock-table .end-time .choose-time.data-v-8d49d028 {
+  margin-top: 6vw;
+  margin-left: 2vw;
+  width: 3.5vw;
+  height: 5vw;
+}
+.clock-box .switch-clock2.data-v-8d49d028 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vw;
+}
+.clock-box .switch-clock2 .check-mark2.data-v-8d49d028 {
+  width: 3.93vw;
+  height: 3.93vw;
+  margin-left: 6vw;
+}
+.clock-box .switch-clock2 .switch-title.data-v-8d49d028 {
+  color: #E59797;
+  margin-left: 3vw;
+  font-size: 3.8vw;
+}
+.clock-box .time-table.data-v-8d49d028 {
+  margin-top: 5vw;
+  margin-left: 13vw;
+  background-color: #FFE0E0;
+  width: 75.46vw;
+  height: 17.56vw;
+  border-radius: 3vw;
+  box-shadow: 0vw 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+}
+.clock-box .time-table .sleep.data-v-8d49d028 {
+  width: 7.2vw;
+  height: 7vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+}
+.clock-box .time-table .time-title.data-v-8d49d028 {
+  color: #F48A8A;
+  margin-top: 6vw;
+  margin-left: 5vw;
+}
+.clock-box .time-table .total-time.data-v-8d49d028 {
+  color: #FFA1A1;
+  margin-top: 6.5vw;
+  margin-left: 25vw;
+  font-size: 3.4vw;
+}
+.clock-box .divider-line2.data-v-8d49d028 {
+  width: 75.92vw;
+  height: 0.3vw;
+  margin-left: 13vw;
+  margin-top: 15vw;
+}
+.clock-box .record-date.data-v-8d49d028 {
+  margin-top: 8vw;
+  margin-left: 13vw;
+  background-color: #FFE0E0;
+  width: 75.46vw;
+  height: 17.56vw;
+  border-radius: 3vw;
+  box-shadow: 0vw 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+}
+.clock-box .record-date .date.data-v-8d49d028 {
+  width: 7.2vw;
+  height: 7vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+}
+.clock-box .record-date .date-title.data-v-8d49d028 {
+  color: #F48A8A;
+  margin-top: 6vw;
+  margin-left: 5vw;
+}
+.clock-box .record-date .current-date.data-v-8d49d028 {
+  color: #FFA1A1;
+  margin-top: 6.5vw;
+  margin-left: 10vw;
+  font-size: 3.4vw;
+}
+.bottom-bar.data-v-8d49d028 {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100vw;
+  height: 20vw;
+}
+.bottom-bar .save-box.data-v-8d49d028 {
+  background: linear-gradient(180deg, #FFC2C2 0%, rgba(255, 225, 225, 0.58) 100%);
+  width: 49.53vw;
+  height: 9.77vw;
+  margin-top: 4vw;
+  margin-left: 25vw;
+  border-radius: 3vw;
+  box-shadow: 0vw 0.8vw 1.6vw rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-bar .save-box .save-title.data-v-8d49d028 {
+  color: #FF6868;
+}

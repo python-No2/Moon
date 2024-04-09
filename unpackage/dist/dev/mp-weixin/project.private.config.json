@@ -3,5 +3,6 @@
   "projectname": "Moon-app",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "2.24.4"
 }

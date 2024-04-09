@@ -33,5 +33,8 @@
 			position: absolute;
 			bottom: -50px;
 		}
+		.topbar{
+			margin-top: 20vw;
+		}
 	}
 </style>

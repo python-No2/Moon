@@ -11,6 +11,7 @@
     "minified": false,
     "newFeature": true,
     "bigPackageSizeSupport": true,
+    "ignoreUploadUnusedFiles": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -18,7 +19,7 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "3.3.0",
+  "libVersion": "",
   "appid": "wx16b17c021966b5aa",
   "projectname": "Moon-app",
   "condition": {},

@@ -2,7 +2,8 @@ export const enum Pages {
 	Home = "/pages/home/home",
 	Summary = "/pages/home/summary/summary",
 	State = "/pages/home/state/state",
-	Temperature = "/pages/home/summary/temperature"
+	Temperature = "/pages/home/summary/temperature",
+	Sleep = "/pages/home/summary/sleep"
 }
 
 export const enum Icons {

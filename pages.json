@@ -1,15 +1,24 @@
 {
 	"pages": [
+	// {
+	// 	"path": "pages/first-pages/first-page",
+	// 	"style": {
+	// 		"navigationBarTitleText": "初始化",
+	// 		"navigationStyle": "default"
+	// 	}
+	// },
 	{
 		"path": "pages/home/home",
 		"style": {
-			"navigationBarTitleText": "首页",
+			"navigationBarTitleText": "",
+			"navigationStyle": "custom",
 			"backgroundColor": "#FFF4F4"
 		}
 	},{
 		"path": "pages/home/summary/summary",
 		"style": {
-			"navigationBarTitleText": "状态记录",
+			"navigationBarTitleText": "",
+			"navigationStyle": "custom",
 			"backgroundColor": "#FFF4F4"
 		}
 	},{
@@ -48,10 +57,23 @@
 	},{
 			"path": "pages/home/summary/temperature",
 			"style": {
-				"navigationBarTitleText": "体温记录",
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
 				"backgroundColor": "#FFF4F4"
 			}
-		}],
+	},{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "登录"
+		}
+	},{
+		"path": "pages/home/summary/sleep",
+		"style": {
+			"navigationBarTitleText": "",
+			"navigationStyle": "custom",
+			"backgroundColor": "#FFF4F4"
+		}
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

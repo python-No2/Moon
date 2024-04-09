@@ -1,5 +1,6 @@
 {
-  "navigationBarTitleText": "首页",
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
   "backgroundColor": "#FFF4F4",
   "usingComponents": {
     "top-bar": "./TopBar",

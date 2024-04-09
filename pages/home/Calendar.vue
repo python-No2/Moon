@@ -1,16 +1,22 @@
 <template>
 	<view class="container">
-		<view class="year">{{ year }}</view>
-		<view class="month">/{{ month }}</view>
+		<view class="year">{{ month }}</view>
+		<view class="month">/{{ currentMonth }}</view>
+		<view class="change-box">
+			<view class="the-last-month" @click="goToLastMonth()">上一月</view>
+			<view class="the-next-month" @click="goToNextMonth()">下一月</view>
+		</view>
 		<view class="calendar">
 			<view v-for="(item, index) in dateArr" :key="item" class="date" @click="goToPanel(item)">
 				<template v-if="item === -1" class="blank">&nbsp;</template>
 				<template v-else>
-					<view class="date-circle" :class="{'active': item === dayDigit}">{{ item }}</view>
+					<view class="date-circle" :class="{'active': item === dayDigit && parseInt(month) === parseInt(currentMonth)}">{{ item }}</view>
 				</template>
 			</view>
 		</view>
 		<image class="frame" src="/static/home/calendar.png"></image>
+		
+		
 	</view>
 	
 	<view v-if="showPanel" class="shadow" @click="hidePanel">
@@ -29,9 +35,10 @@
 	// 日历模块
 	const year = ref("");
 	const month = ref("");
+	const currentMonth = ref("");
 	const day = ref("");
 	const dayDigit = ref(0);
-	const dayArr = ["日", "一", "二", "三", "四", "五", "六"];
+	// const dayArr = ["日", "一", "二", "三", "四", "五", "六"];
 	const dateArr = ref<number[]>([]);
 	
 	const addZero = (date : number) : string => {
@@ -64,6 +71,17 @@
 		getDate(new Date());
 	})
 	
+	const ConstCurrentDate = ref(new Date());
+	currentMonth.value = addZero(ConstCurrentDate.value.getMonth() + 1);
+	const currentDate = ref(new Date());
+	const goToNextMonth = () => {
+		currentDate.value.setMonth(currentDate.value.getMonth() + 1);
+		getDate(currentDate.value)
+	}
+	const goToLastMonth = () => {
+		currentDate.value.setMonth(currentDate.value.getMonth() - 1);
+		getDate(currentDate.value)
+	}
 	// 弹窗模块
 	const showPanel = ref(false);
 	
@@ -105,7 +123,7 @@
 		}
 		.frame{
 			width: 93vw;
-			height: 108vw;
+			height: 115vw;
 			margin-top: 37vw;
 			z-index: 0;
 		}
@@ -116,7 +134,7 @@
 			// gap: 2vw;
 			margin-left: 5vw;
 			width: 85vw;
-			margin-top: 59vw;
+			margin-top: 62vw;
 			z-index: 1;
 		}
 		.date{
@@ -139,6 +157,24 @@
 			&.active{
 				background-color: #FFADAD;
 				color: #ffffff;
+			}
+		}
+		.change-box{
+			display: flex;
+			flex-direction: row;
+			margin-top: 0vw;
+			// width: 85vw;
+			.the-last-month{
+				position: absolute;
+				color: #FF7474;
+				top: 140vw;
+				left: 5vw;
+			}
+			.the-next-month{
+				position: absolute;
+				color: #FF7474;
+				top: 140vw;
+				left: 75vw;
 			}
 		}
 	}

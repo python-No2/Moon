@@ -1,5 +1,6 @@
 {
-  "navigationBarTitleText": "体温记录",
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
   "backgroundColor": "#FFF4F4",
   "usingComponents": {}
 }
