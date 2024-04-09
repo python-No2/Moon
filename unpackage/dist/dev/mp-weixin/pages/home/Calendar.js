@@ -1,1 +1,76 @@
-"use strict";const e=require("../../common/vendor.js"),p=e.defineComponent({__name:"Calendar",setup(y){const r=e.ref(""),s=e.ref(""),c=e.ref(""),v=e.ref(0),u=e.ref([]),d=l=>l.toString().padStart(2,"0"),_=l=>{const a=l;r.value=a.getFullYear().toString(),s.value=d(a.getMonth()+1),c.value=d(a.getDate());const t=new Date(a.getFullYear(),a.getMonth(),1).getDay(),f=new Date(a.getFullYear(),a.getMonth()+1,0).getDate(),g=a.getDate();u.value=[];for(let o=1;o<=f;o++)u.value.push(o);for(let o=0;o<t;o++)u.value.unshift(-1);v.value=g};e.onMounted(()=>{_(new Date)});const n=e.ref(!1),i=l=>{const t=new Date().getDate();l==t&&(n.value=!n.value)},h=()=>{n.value=!1};return(l,a)=>e.e({a:e.t(r.value),b:e.t(s.value),c:e.f(u.value,(t,f,g)=>e.e({a:t===-1},t===-1?{}:{b:e.t(t),c:t===v.value?1:""},{d:t,e:e.o(o=>i(t),t)})),d:n.value},n.value?e.e({e:n.value},n.value?{f:e.t(r.value),g:e.t(s.value),h:e.t(c.value),i:e.o(()=>{})}:{},{j:e.o(h)}):{})}}),D=e._export_sfc(p,[["__scopeId","data-v-9fe07f7e"],["__file","D:/Moon_TiaoZhanBei/Moon-app/pages/home/Calendar.vue"]]);wx.createComponent(D);
+"use strict";
+const common_vendor = require("../../common/vendor.js");
+const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
+  __name: "Calendar",
+  setup(__props) {
+    const year = common_vendor.ref("");
+    const month = common_vendor.ref("");
+    const day = common_vendor.ref("");
+    const dayDigit = common_vendor.ref(0);
+    const dateArr = common_vendor.ref([]);
+    const addZero = (date) => {
+      return date.toString().padStart(2, "0");
+    };
+    const getDate = (newDate) => {
+      const date = newDate;
+      year.value = date.getFullYear().toString();
+      month.value = addZero(date.getMonth() + 1);
+      day.value = addZero(date.getDate());
+      const firstDay = new Date(date.getFullYear(), date.getMonth(), 1).getDay();
+      const monthNum = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+      const dayNum = date.getDate();
+      dateArr.value = [];
+      for (let i = 1; i <= monthNum; i++) {
+        dateArr.value.push(i);
+      }
+      for (let i = 0; i < firstDay; i++) {
+        dateArr.value.unshift(-1);
+      }
+      dayDigit.value = dayNum;
+    };
+    common_vendor.onMounted(() => {
+      getDate(/* @__PURE__ */ new Date());
+    });
+    const showPanel = common_vendor.ref(false);
+    const goToPanel = (selectedData) => {
+      const date = /* @__PURE__ */ new Date();
+      const today = date.getDate();
+      if (selectedData == today) {
+        showPanel.value = !showPanel.value;
+      }
+    };
+    const hidePanel = () => {
+      showPanel.value = false;
+    };
+    return (_ctx, _cache) => {
+      return common_vendor.e({
+        a: common_vendor.t(year.value),
+        b: common_vendor.t(month.value),
+        c: common_vendor.f(dateArr.value, (item, index, i0) => {
+          return common_vendor.e({
+            a: item === -1
+          }, item === -1 ? {} : {
+            b: common_vendor.t(item),
+            c: item === dayDigit.value ? 1 : ""
+          }, {
+            d: item,
+            e: common_vendor.o(($event) => goToPanel(item), item)
+          });
+        }),
+        d: showPanel.value
+      }, showPanel.value ? common_vendor.e({
+        e: showPanel.value
+      }, showPanel.value ? {
+        f: common_vendor.t(year.value),
+        g: common_vendor.t(month.value),
+        h: common_vendor.t(day.value),
+        i: common_vendor.o(() => {
+        })
+      } : {}, {
+        j: common_vendor.o(hidePanel)
+      }) : {});
+    };
+  }
+});
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-9fe07f7e"], ["__file", "D:/Moon_TiaoZhanBei/Moon-app/pages/home/Calendar.vue"]]);
+wx.createComponent(Component);

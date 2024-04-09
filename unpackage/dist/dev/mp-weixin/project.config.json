@@ -19,7 +19,7 @@
     "ignoreUploadUnusedFiles": true
   },
   "compileType": "miniprogram",
-  "libVersion": "3.4.0",
+  "libVersion": "3.3.5",
   "appid": "wx16b17c021966b5aa",
   "projectname": "Moon-app",
   "condition": {},
